@@ -1,0 +1,12 @@
+output:
+  logstash:
+    hosts:
+      - "logstash:5043"
+    timeout: 15
+  console:
+    pretty: true
+filebeat:
+  prospectors:
+    -
+      paths:
+        - "/var/www/site/storage/logs/*.log"
