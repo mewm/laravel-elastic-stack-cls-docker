@@ -1,4 +1,4 @@
-# Centralised logging system using Laravel with Elastic Stack. Wired up with docker-compose
+# Centralised Logging System for Laravel in an ElasticStack. Wired up with docker-compose
 
 This repository contains the code I did in the live demo at the Copenhagen Laravel Meetup http://www.meetup.com/Copenhagen-Laravel-Meetup/events/231241447/ hosted at Tattoodo
 
@@ -12,7 +12,9 @@ After `docker-compose up`:
 * Image API: http://localhost:8081
 * Kibana: http://localhost:5601
 
-The session was recorded and will be uploaded soon.
+This session was recorded and can be found here: https://youtu.be/Wm_6I_kQctQ
+
+Full Meetup recording: https://youtu.be/2DL1c9k67og
 
 # Slides
 
